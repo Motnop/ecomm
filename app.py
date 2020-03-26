@@ -11,8 +11,6 @@ app.config.from_object(Config)
 db.init_app(app)
 migrate = Migrate(app, db)
 
-
-
 from views import *
 
 if __name__ == '__main__':
